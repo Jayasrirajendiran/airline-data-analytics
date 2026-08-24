@@ -1,0 +1,52 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+*.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# PostgreSQL files
+*.sql.bak
+*.dump
+
+# Power BI temporary files
+*.pbit.lock
+*.pbix.lock
+~$*.pbix
+
+# Large generated files
+outputs/
+exports/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
